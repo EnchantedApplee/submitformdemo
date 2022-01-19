@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>All you need</title>
+    <link rel="shortcut icon" type="image" href="./images/Title Logo.png"> <!--Title logo -->
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo">
+            <h4>All You Need</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#support">Support</a>
+            </li>
+            <li>
+                <a href="#suggest">Suggest</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>  
+    </header>
+    <section id="home">
+        <h1>Welcome!</h1>
+        <p>We have all the things you need such as timer, sites links and a lot more.</p>
+        <p>Suggest us more things to add in the <a href="#suggest.html" class="link-suggest">Suggest Panel!</a></p>
+    </section>
+    <section id="about">
+        <h1 class="header-one">About</h1>
+        <p>Welcome to All You Need.</p>
+        <p>We would appreciate it if you will send us suggestions of things we can add to our website to improve!</p>
+        <p>This website was created to help people find things in an easier way instead of opening many browsers!</p>
+        <p>Premium tools might be added in the future.</p>
+    </section>
+    <section id="support">
+        <div class="container mt-5">
+            <h1>Support</h1>
+            <form class="row g-3" action="https://formsubmit.co/lior.vizman21@gmail.com" method="POST">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (415) 867-5309">
+                </div>
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Please provide all needed info right below</label>
+                    <textarea class="form-control" id="comments" rows="3" required></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="suggest">
+        <h1>Suggest</h1>
+        <p>Got an idea for something to add to the website?</p>
+        <p>Sumbit a suggestion and you might be featured for the idea!</a></p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
